@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Wrestling</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">UNI WRESTLING</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#roster">Roster</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Recruitment</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>DOMINATE THE MAT</h1>
+            <p>Official Home of University Wrestling</p>
+            <a href="#schedule" class="cta-button">See Upcoming Matches</a>
+        </div>
+    </header>
+
+    <section id="roster" class="section-padding">
+        <h2 class="section-title">Meet the Team</h2>
+        <div class="card-container">
+            <div class="athlete-card">
+                <div class="card-image placeholder-img"></div>
+                <h3>Alex Smith</h3>
+                <p>Weight Class: 125 lbs</p>
+                <p>Year: Senior</p>
+            </div>
+            <div class="athlete-card">
+                <div class="card-image placeholder-img"></div>
+                <h3>Jordan Doe</h3>
+                <p>Weight Class: 165 lbs</p>
+                <p>Year: Sophomore</p>
+            </div>
+            <div class="athlete-card">
+                <div class="card-image placeholder-img"></div>
+                <h3>Casey Jones</h3>
+                <p>Weight Class: Heavyweight</p>
+                <p>Year: Junior</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="section-padding bg-light">
+        <h2 class="section-title">2025 Schedule</h2>
+        <table class="schedule-table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Opponent</th>
+                    <th>Location</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Oct 15</td>
+                    <td>State University Open</td>
+                    <td>Home Arena</td>
+                    <td>10:00 AM</td>
+                </tr>
+                <tr>
+                    <td>Oct 22</td>
+                    <td>Regional Duals</td>
+                    <td>Away</td>
+                    <td>6:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Nov 05</td>
+                    <td>National Qualifiers</td>
+                    <td>City Center</td>
+                    <td>9:00 AM</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 University Wrestling Program. All Rights Reserved.</p>
+        <div class="socials">
+            <a href="#">Instagram</a> | <a href="#">Twitter</a> | <a href="#">Facebook</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
